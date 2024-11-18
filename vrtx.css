@@ -1,0 +1,221 @@
+/**
+ * @name Vortex Portal ( Testing )
+ * @author seafour
+ * @description ⠀
+ * @version 1
+*/
+
+
+
+
+
+/*   ///////////////////////   */
+/* ///// INCLUDES */
+/* Source Code (ALL CREDIT GOES TO THIS PAGE) */
+@import url('https://jAba65.github.io/Discord%20Theme/jAba.css');
+/* Horizontal Server List */
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Baskervville+SC&family=Bruno+Ace&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Darker+Grotesque:wght@300..900&family=Electrolize&family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Flow+Circular&family=Goldman:wght@400;700&family=Gruppo&family=Jura:wght@300..700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kode+Mono:wght@400..700&family=Lexend+Exa:wght@100..900&family=Lexend+Peta:wght@100..900&family=Lexend+Zetta:wght@100..900&family=Michroma&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne+Mono&display=swap');
+/* End of Section */
+/*   ///////////////////////   */
+
+
+
+
+
+/*   ///////////////////////   */
+/* ///// Main Window Edits */
+/* Main Background and Color edits */
+:root {
+    --app-bg: url(https://64.media.tumblr.com/f152548fc838d61573a2534f4783cb39/4cf6dfa9d4b29369-9c/s500x750/f888ea8e3f8c70dd625db1eae6c92eaa5d26ecc9.gifv);
+    --blur-bg: 60px; /* Main window Background blur */
+    --brightness-bg: 0.6;/* Main window brightness */
+    --border-main: 1px solid rgba(255, 255, 255, 0.05);
+}
+/* Background Sizing and Shit */
+body {
+    background: var(--app-bg);
+    background-position: 50%;
+    background-size: auto 105%;/* Background scaled via the Horizontal axis */
+    letter-spacing: 1px;
+}
+.theme-dark {
+    --background-secondary-alt: rgba(255, 255, 255, 0.05);
+    --background-tertiary: var(--background-secondary-alt);
+    --status-danger: rgba(0, 0, 0, 0.587); /* Red icons */
+    --text-link: rgba(154, 196, 255, 0.569);
+    --background-primary: rgba(211, 211, 211, 0.1);
+    --background-secondary: rgba(255, 255, 255, 0.05); /* Button color, in vencord theme page */
+    --bg-overlay-chat: rgba(140, 140, 140, 0.05);
+    --button-danger-background: rgba(155, 155, 155, 0.25);
+    --background-modifier-selected: rgba(255, 255, 255, 0.25);
+    --background-floating: rgba(146, 146, 146, 0.296);
+    --status-positive-background: rgba(189, 236, 255, 0.135);
+    --control-brand-foreground-new: rgba(255, 255, 255, 0.229); /* Slider positive side */
+    --text-brand: rgba(255, 255, 255, 0);
+}
+/* Font edits & Text Color */
+:root {
+    --fuckfuck: "Gruppo";
+}
+:root {
+    --font-primary: var(--fuckfuck);
+    --font-display: var(--fuckfuck);
+    --font-headline: var(--fuckfuck);
+    --status-positive: rgba(255, 255, 255, 0.268);
+    --text-positive: rgba(220, 220, 220, 0.261);
+    --primary-700: rgba(0, 0, 0, 0.1);
+    --brand-500: rgba(205, 205, 205, 0.323);
+    --brand-400: rgba(176, 176, 176, 0.4);
+    --brand-560: rgba(255, 255, 255, 0);
+    --brand-530: rgba(255, 255, 255, 0.041);
+    --brand-600: rgba(196, 196, 196, 0.3);
+    --red-400: rgba(161, 161, 161, 0.7);
+    --green-360: rgba(50, 132, 255, 0.504); /* Speaking indicator small */
+    --primary-630: rgba(255, 255, 255, 0.052);
+    --primary-860: rgba(138, 138, 138, 0.9);
+    --important-messages-color: #fdbdbd;
+    --custom-standard-sidebar-view-sidebar-content-width: 217px;
+    --custom-standard-sidebar-view-standard-padding: 100px;
+}
+/* My Variables */
+:root {
+    --svgicon-tr: "M45.19,4.45l1.73-.04c.4,0,.73.36.73.76v1.94c0,.4-.32.72-.72.72h-1.74c-.4,0-.72-.32-.72-.72v-1.94c0-.4.32-.72.72-.72Z M22.64,5.74h.82v.82c0,.25.16.41.41.41h.82v.82c0,.25.16.41.41.41h.82v.82h-.82c-.25,0-.41.16-.41.41v1.23c0,.25.16.41.41.41h1.23c.25,0,.41-.16.41-.41v-.82h.82c.25,0,.41-.16.41-.41v-1.23h1.64v1.23c0,.25.16.41.41.41h.82v.82c0,.25.16.41.41.41h1.23c.25,0,.41-.16.41-.41v-1.23c0-.25-.16-.41-.41-.41h-.82v-.82h.82c.25,0,.41-.16.41-.41v-.82h.82c.25,0,.41-.16.41-.41v-.82h.82c.25,0,.41-.16.41-.41V1.64c0-.25-.16-.41-.41-.41h-1.23c-.25,0-.41.16-.41.41v2.05h-.41V1.64c0-.25-.16-.41-.41-.41h-.82V.41c0-.25-.16-.41-.41-.41h-1.64c-.25,0-.41.16-.41.41v1.23c0,.25.16.41.41.41h1.23v.41h-4.1v-.41h1.23c.25,0,.41-.16.41-.41V.41c0-.25-.16-.41-.41-.41h-1.64c-.25,0-.41.16-.41.41v.82h-.82c-.25,0-.41.16-.41.41v2.05h-.41V1.64c0-.25-.16-.41-.41-.41h-1.23c-.25,0-.41.16-.41.41v3.69c0,.25.16.41.41.41ZM29.61,4.51c0-.25.16-.41.41-.41h1.23c.25,0,.41.16.41.41v1.23c0,.25-.16.41-.41.41h-1.23c-.25,0-.41-.16-.41-.41v-1.23ZM25.92,4.51c0-.25.16-.41.41-.41h1.23c.25,0,.41.16.41.41v1.23c0,.25-.16.41-.41.41h-1.23c-.25,0-.41-.16-.41-.41v-1.23Z M12.7,5.33h-.82v-.82c0-.25-.16-.41-.41-.41h-.82v-.82c0-.25-.16-.41-.41-.41h-.82v-.82h.82c.25,0,.41-.16.41-.41V.41c0-.25-.16-.41-.41-.41h-1.23c-.25,0-.41.16-.41.41v.82h-.82c-.25,0-.41.16-.41.41v1.23h-1.64v-1.23c0-.25-.16-.41-.41-.41h-.82V.41c0-.25-.16-.41-.41-.41h-1.23c-.25,0-.41.16-.41.41v1.23c0,.25.16.41.41.41h.82v.82h-.82c-.25,0-.41.16-.41.41v.82h-.82c-.25,0-.41.16-.41.41v.82H.41c-.25,0-.41.16-.41.41v3.69c0,.25.16.41.41.41h1.23c.25,0,.41-.16.41-.41v-2.05h.41v2.05c0,.25.16.41.41.41h.82v.82c0,.25.16.41.41.41h1.64c.25,0,.41-.16.41-.41v-1.23c0-.25-.16-.41-.41-.41h-1.23v-.41h4.1v.41h-1.23c-.25,0-.41.16-.41.41v1.23c0,.25.16.41.41.41h1.64c.25,0,.41-.16.41-.41v-.82h.82c.25,0,.41-.16.41-.41v-2.05h.41v2.05c0,.25.16.41.41.41h1.23c.25,0,.41-.16.41-.41v-3.69c0-.25-.16-.41-.41-.41ZM5.74,6.56c0,.25-.16.41-.41.41h-1.23c-.25,0-.41-.16-.41-.41v-1.23c0-.25.16-.41.41-.41h1.23c.25,0,.41.16.41.41v1.23ZM9.42,6.56c0,.25-.16.41-.41.41h-1.23c-.25,0-.41-.16-.41-.41v-1.23c0-.25.16-.41.41-.41h1.23c.25,0,.41.16.41.41v1.23Z M57.49,4.45h1.74c.4,0,.72.32.72.72v1.94c0,.4-.32.72-.72.72l-1.76.06c-.4,0-.7-.38-.7-.78v-1.94c0-.4.32-.72.72-.72Z";
+}
+/* Credits & Metadata */
+.info_c5a741::before {
+    content: "@seafour";
+    color: var(--text-muted);
+    font-size: 14px;
+    padding-bottom: 10px;
+    display: block;
+}
+/* Scroller & Selection Edits */
+::selection {
+    background: rgba(191, 216, 255, 0.186) !important;
+}
+.scroller_c47fa9 {
+    color: rgba(229, 255, 0, 0.144)
+}
+.tree_fea3ef::-webkit-scrollbar {
+    background: transparent; /* Chrome/Safari/Webkit */
+    width: 0px;
+}
+.tree_fea3ef {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+/* When someone is speaking TALKING INDICATOR */
+.border_ba4b17.speaking_ba4b17:before { 
+    box-shadow: inset 0 0 1px rgba(0, 255, 149, 0);
+    transition-duration: 0.25s;
+}
+.border_ba4b17.speaking_ba4b17 {
+    box-shadow: inset 0 0 5vh rgba(97, 255, 155, 0.75);
+    transition-duration: 0.25s;
+}
+/* End of Section */
+/*   ///////////////////////   */
+
+
+
+
+
+/*   ///////////////////////   */
+/* ///// Additional Modifications */
+/* WINDOW TITLE RIPPED FROM CLEARVISION */
+.typeWindows_a934d8 {
+    height: 20px;
+    width: 100vw;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+    box-shadow: 0 0 20px rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+}
+.typeWindows_a934d8 > .wordmark_a934d8 {
+    position: static;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    pointer-events: none;
+    user-select: none;
+    order: 1;
+}
+.typeWindows_a934d8 > .wordmark_a934d8:before,
+.typeWindows_a934d8 > .wordmark_a934d8:after {
+    margin-top:1px;
+    margin-left: 5px;
+    font-weight: 600;
+    white-space: nowrap;
+    order: 1;
+}
+/* Main Title Name (Top left) */
+.typeWindows_a934d8 > .wordmark_a934d8:before {
+    content: "VORTEX";
+    color: hsla(206, 100%, 97%, 0.624);
+    font-size: 12px;
+    font-family: "Fahkwang";
+    text-shadow: 0 0 1px #000;
+    margin-left: 3px;
+}
+/* Version Number (Top left) */
+.typeWindows_a934d8 > .wordmark_a934d8:after {
+    content: "PORTAL";
+    color: hsla(0, 0%, 100%, 0.462);
+    font-family: "Fahkwang";
+    font-size: 7px;
+    margin-top: -2px;
+}
+.typeWindows_a934d8 > .wordmark_a934d8 > svg {
+    filter: drop-shadow(0 0 5px var(--main-color));
+    margin-top: 5px;
+}
+.typeWindows_a934d8 > .wordmark_a934d8 > svg > g > path {
+    fill: var(--main-color);
+}
+.typeWindows_a934d8 > .wordmark_a934d8 > svg > g > path:first-child {
+    d: path( var(--svgicon-tr) );
+}
+.typeWindows_a934d8 > .wordmark_a934d8 > svg > g > path:not(:first-child) {
+    display: none;
+}
+.typeWindows_a934d8 > .winButton_a934d8 {
+    top: -2px;
+    opacity: .7;
+}
+/* End of Section */
+/*   ///////////////////////   */
+
+
+
+
+
+/*   ///////////////////////   */
+/* ///// App Intro */
+/* Title */
+.tip_e40c16::before {
+    content: "V O R T E X";
+    color: rgba(240, 255, 255, 0.75) !important;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-family: "Fahkwang";
+    font-weight: bold;
+}
+/* Subtitle */
+.tip_e40c16::after {
+    animation: slidein 1s;
+    content: "P O R T A L";
+    color: rgba(255,255,255,0.5) !important;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: "Fahkwang";
+    font-weight: bold;
+}
+/* End of Section */
+/*   ///////////////////////   */
