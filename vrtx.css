@@ -72,8 +72,8 @@ body {
     --brand-530: rgba(255, 255, 255, 0.041);
     --brand-600: rgba(196, 196, 196, 0.3);
     --red-400: rgba(161, 161, 161, 0.7);
-    --green-360: rgba(50, 132, 255, 0.504); /* Speaking indicator small */
-    --primary-630: rgba(255, 255, 255, 0.052);
+    --green-360: rgba(130, 130, 130, 0.465); /* Speaking indicator small */
+    --primary-630: rgba(255, 255, 255, 0);
     --primary-860: rgba(138, 138, 138, 0.9);
     --important-messages-color: #fdbdbd;
     --custom-standard-sidebar-view-sidebar-content-width: 217px;
