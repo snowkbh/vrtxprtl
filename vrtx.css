@@ -29,8 +29,8 @@
 /* Main Background and Color edits */
 :root {
     --app-bg: url(https://64.media.tumblr.com/f152548fc838d61573a2534f4783cb39/4cf6dfa9d4b29369-9c/s500x750/f888ea8e3f8c70dd625db1eae6c92eaa5d26ecc9.gifv);
-    --blur-bg: 60px; /* Main window Background blur */
-    --brightness-bg: 0.6;/* Main window brightness */
+    --blur-bg: 70px; /* Main window Background blur */
+    --brightness-bg: 0.8;/* Main window brightness */
     --border-main: 1px solid rgba(255, 255, 255, 0.05);
 }
 /* Background Sizing and Shit */
